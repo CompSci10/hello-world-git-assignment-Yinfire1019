@@ -1,0 +1,82 @@
+    1  l
+    2  ls
+    3  man ls
+    4  mkdir manhattan-zoo
+    5  cd manhattan-zoo
+    6  touch meal-log.txt
+    7  nano meal-log.txt
+    8  git branch 
+    9  git init
+   10  git add meal-log.txt
+   11  git commit -m
+   12  git commit -m "meal guidelines"
+   13  git config --global user.email "2679183044@qq.com"
+   14  git config --global user name "Fengyuan Zhang"
+   15  git commit -m "meal guidelines"
+   16  nano meal-log.txt
+   17  git add meal-log.txt
+   18  git commit -m "change txt"
+   19  git log
+   20  nano
+   21  nano meal-log.txt
+   22  git add meal-log.txt
+   23  git commit -m "Frogs"
+   24  nano meal-log.txt
+   25  git add meal-log.txt
+   26  git commit -m "The meal"
+   27  git log > commit-history.txt
+   28  cat commit-history.txt 
+   29  cat meal-log.txt 
+   30  cd poem.txt
+   31  ls
+   32  nano
+   33  nano man
+   34  git clone git://github.com/CompSci10/hello-world-git-assignment-Yinfire1019.git
+   35  ls
+   36  cd hello-world-git-assignment-Yinfire1019/
+   37  ls
+   38  nano poem.txt
+   39  git commit -m"fix"
+   40  nano poem.txt
+   41  git add poem.txt
+   42  nano poem.txt
+   43  git branch myPoem
+   44  git checkout myPoem
+   45  nano poem.txt
+   46  git commit -m"dog"
+   47  nano poem.txt
+   48  git commit -m"change to my name"
+   49  git commit -m"Fengyuan"
+   50  nano poem.txt
+   51  git commit -m "myname"
+   52  git add poem.txt
+   53  git commit -m "myname"
+   54  git tag version2
+   55  nano poem.txt
+   56  ://github.com/CompSci10/hello-world-git-assignment-Yinfire1019.git
+   57  git clone ://github.com/CompSci10/hello-world-git-assignment-Yinfire1019.git
+   58  pwd
+   59  ls
+   60  cd hello-world-git-assignment-Yinfire1019/
+   61  ls
+   62  nano poem.txt
+   63  pwd
+   64  ls
+   65  git status
+   66  nano poem.txt
+   67  ls
+   68  ls -a
+   69  git status
+   70  git log
+   71  git push
+   72  git push --set-upstream origin myPoem
+   73  git push https://github.com/CompSci10/hello-world-git-assignment-Yinfire1019.git
+   74  git tag -a version2 -m "Improve version"
+   75  git tag -a version3 -m "Improve version"
+   76  git merge myPoem master
+   77  git checkout master
+   78  git merge myPoem master
+   79  nano poem.txt
+   80  git add poem.txt
+   81  git commit -m "original version"
+   82  history > history.txt
